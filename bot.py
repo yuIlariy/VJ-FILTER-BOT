@@ -61,7 +61,7 @@ async def start():
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
     logging.info(script.LOGO)
-    tz = pytz.timezone('Asia/Kolkata')
+    tz = pytz.timezone('Africa/Nairobi')
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
